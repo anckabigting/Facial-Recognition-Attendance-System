@@ -26,7 +26,7 @@ A **Python-based Face Recognition Attendance System** that uses **OpenCV, Dlib, 
 - **Jumper wires**
 - **USB Cable**
 
-- ## SOFTWARE REQUIREMENTS -
+- ## SOFTWARE REQUIREMENTS 
 - **Python 3.11+**
 - **OpenCV**
 - **Dlib**
