@@ -37,18 +37,19 @@ A **Python-based Face Recognition Attendance System** that uses **OpenCV, Dlib, 
 - **Camera access permissions enabled**
 
 - HARDWARE CONNECTIONS:
-- --ensure the Arduino is disconnected before wiring
-- | **Arduino Pin** | **Buzzer Pin** |
-- | --------------- | -------------- |
-- |       5V        |     VCC (+)    |
-- |      GND (-)    |     GND (+)    |
-- |       D8        |      I/O       |
+- ensure the Arduino is disconnected before wiring:
+  
+|   Arduino Pin   |   Buzzer Pin   |
+|-----------------|----------------|
+|       5V        |     VCC (+)    |
+|      GND (-)    |     GND (+)    |
+|       D8        |      I/O       |
 ---
 
 ## Project Structure (Simplified)
 
 Face-Recognition-Based-Attendance-System-main/
-│
+
 ├── app.py                              # Flask attendance viewer
 ├── main.py                             # Main control panel
 ├── attendance_taker.py                 # Face recognition & attendance logic
