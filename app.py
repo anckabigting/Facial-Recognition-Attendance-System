@@ -1,5 +1,5 @@
 from flask import Flask, render_template, request, send_file
-import sqlite2
+import sqlite3
 from datetime import datetime, timedelta
 import os
 
@@ -31,7 +31,7 @@ def get_all_students():
     return sorted(students, key=str.lower)
 
 
-def get_attendance_data(date, class_start):
+def get_attendance_data(insertDate, class_start):
     conn = sqlite3.connect(DB_PATH)
     cursor = conn.cursor()
     cursor.execute(
