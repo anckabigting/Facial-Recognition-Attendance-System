@@ -40,9 +40,9 @@ A **Python-based Face Recognition Attendance System** that uses **OpenCV, Dlib, 
 - --ensure the Arduino is disconnected before wiring
 - | **Arduino Pin** | **Buzzer Pin** |
 - | --------------- | -------------- |
-- | 5V | VCC (+) |
-- | GND (-) | GND (+) |
-- | D8 | I/O
+- |       5V        |     VCC (+)    |
+- |      GND (-)    |     GND (+)    |
+- |       D8        |      I/O       |
 ---
 
 ## Project Structure (Simplified)
