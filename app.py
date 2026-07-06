@@ -1,5 +1,5 @@
 from flask import Flask, render_template, request, send_file
-import sqlite3
+import sqlite2
 from datetime import datetime, timedelta
 import os
 
@@ -11,7 +11,7 @@ from reportlab.lib import colors
 
 app = Flask(__name__)
 
-DB_PATH = "faces.db"
+DB_PATH = "attendance.db"
 FACES_DIR = "data/data_faces_from_camera"
 
 GRACE_MINUTES = 5  # ✅ 5-minute grace period
