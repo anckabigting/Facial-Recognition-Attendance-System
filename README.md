@@ -1,4 +1,4 @@
-# Face Recognition Based Attendance System
+# Face Recognition-Based Automated Attendance System with Arduino Buzzer Feedback.
 
 A **Python-based Face Recognition Attendance System** that uses **OpenCV, Dlib, and SQLite** to automatically record attendance through real-time face recognition. The system includes **face enrollment**, **anti-spoofing (blink detection)**, and a **web-based attendance viewer**.
 
@@ -15,8 +15,18 @@ A **Python-based Face Recognition Attendance System** that uses **OpenCV, Dlib, 
 
 ---
 
-## Technologies Used
+## System Requirements
 
+- ## HARDWARE REQUIREMENTS 
+- **Desktop or Laptop Computer**
+- **Built-in or External Webcam**
+- **Stable lighting environment for facial recognition**
+- **Arduino Uno/Nano**
+- **Active buzzer**
+- **Jumper wires**
+- **USB Cable**
+
+- ## SOFTWARE REQUIREMENTS -
 - **Python 3.11+**
 - **OpenCV**
 - **Dlib**
@@ -24,7 +34,15 @@ A **Python-based Face Recognition Attendance System** that uses **OpenCV, Dlib, 
 - **SQLite**
 - **Tkinter**
 - **Flask**
+- **Camera access permissions enabled**
 
+- HARDWARE CONNECTIONS:
+- --ensure the Arduino is disconnected before wiring
+- | **Arduino Pin** | **Buzzer Pin** |
+- | --------------- | -------------- |
+- | 5V | VCC (+) |
+- | GND (-) | GND (+) |
+- | D8 | I/O
 ---
 
 ## Project Structure (Simplified)
