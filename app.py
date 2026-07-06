@@ -11,7 +11,7 @@ from reportlab.lib import colors
 
 app = Flask(__name__)
 
-DB_PATH = "attendance.db"
+DB_PATH = "faces.db"
 FACES_DIR = "data/data_faces_from_camera"
 
 GRACE_MINUTES = 5  # ✅ 5-minute grace period
