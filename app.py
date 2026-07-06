@@ -31,7 +31,7 @@ def get_all_students():
     return sorted(students, key=str.lower)
 
 
-def get_attendance_data(insertDate, class_start):
+def get_attendance_data(date, class_start):
     conn = sqlite3.connect(DB_PATH)
     cursor = conn.cursor()
     cursor.execute(
