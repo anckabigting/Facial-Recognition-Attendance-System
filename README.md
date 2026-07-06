@@ -119,10 +119,4 @@ Faces that do not exhibit real eye-blinking behavior are marked as SPOOF, preven
 
 ---
 
-## Contributing
 
-Contributions are welcome!
-- Fork the repository
-- Create a feature branch
-- Submit a pull request
-If you find bugs or have feature suggestions, feel free to open an issue.
